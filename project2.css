@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    font-family: gilroy;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+#left{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1597045566677-8cf032ed6634?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-position: center;
+    background-size: cover; 
+}
+#png{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+}
+#text1{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    bottom: 0%;
+    padding: 5px 20px;
+    background-color: aliceblue;
+
+}
+#text1 h1{
+    text-align: center;
+    letter-spacing: 10px;
+}
+#text1 h3{
+    /* text-align: center; */
+    /* letter-spacing: 10px; */
+    color:#de2d2abb ;
+}
+#text1 p{
+    margin-top: 5px;
+    font-size: 10px;
+}
+#text1 a{
+    display: inline-block;
+    margin-top: 1px;
+    font-size: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #de2d2abb;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+#right{
+   
+    position: relative;
+    /* display: flex; */
+    width: 55%;
+    height: 100%;
+    background-color: #DDE7DF;
+}
+#nav{
+    /* width: 100%; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#navigation1{
+    display: flex;
+    gap: 20px;
+
+}
+h1 span{
+    font-weight: 300;
+}
+#navigation2{
+    display: flex;
+    gap: 20px;
+    /* padding-bottom: 70px; */
+    margin-top: 30px;
+}
+#cards{
+    overflow: auto;
+    /* position: absolute; */
+    display: flex;
+    gap: 30px;
+    padding: 89px;
+    /* padding-left: 160px; */
+    /* padding-left: 60px; */
+  margin-left: 70px;
+    /* overflow: 0; */
+    /* padding-bottom: 160px; */
+}
+#cards::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    top: 50%;
+    /* left: 10%; */
+    /* bottom: 20%; */
+    flex-shrink: 0;
+    padding: 10px;
+    /* padding-left: 10px; */
+   /* margin-left: 10px; */
+    padding-top: 150px;
+    overflow: hidden;
+    position: relative;
+    gap: 30px;
+    width: 220px;
+    height: 330px;
+    background-color: rgb(250, 247, 247);
+    box-shadow: 10px 30px 10px -10px rgb(115, 114, 114);
+}
+.card img{
+    position: absolute;
+    left: 0%;
+    
+    top: 5%;
+    width: 100%;
+    filter: drop-shadow();
+}
+.card h3{
+    padding: 10px;
+    color: brown;
+}
+.card h2{
+    margin-top: 10px;
+    padding: 10px;
+}
+.card p{
+     
+}
+#ninty {
+   rotate: colomn;
+   top: 40%;
+   left: 10%;
+   transform: translate(-50%,-50%);
+}
+  #button1{
+    position: absolute;
+    display: flex;
+    /* color: brown; */
+}
+#buttonright{
+    margin-top: -14px;
+}
+#buttonleft{
+    color: rgb(41, 222, 41);
+    box-shadow: 0 0 25px rgb(44, 210, 44);
+    font-size: larger;
+}
+#side{
+    position: absolute;
+    text-decoration: none;
+    color: yellow;
+    display: flex;
+    gap: 50px;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    /* background-color: aqua; */
+    top: 70%;
+    left: 5%;
+}
+#side a{
+    text-decoration: none;
+}
+#foot{
+    position: relative;
+    gap: 300px;
+    left: 30%;
+
+}
+#foot a{
+    /* position: absolute; */
+     
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 700;
+    word-spacing: 40px;
+    
+}
